@@ -11,7 +11,7 @@ if (!file_exists($wpconfig))  {
 	die;	
 }
 require_once($wpconfig);*/
-require_once('../../../../wp-admin/admin.php');
+require_once('../../../../wp/wp-admin/admin.php');
 
 if ( function_exists( 'load_plugin_textdomain' ) )
   load_plugin_textdomain( SAM_DOMAIN, false, basename( SAM_PATH ) );
